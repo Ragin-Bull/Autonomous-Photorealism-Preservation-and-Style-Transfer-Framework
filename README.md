@@ -1,24 +1,8 @@
-# Automated Deep Photo Style Transfer
+# Autonomous Photorealism Preservation and Style Transfer Framework
 
-This repository holds a TensorFlow implementation for the paper [Automated Deep Photo Style Transfer](https://arxiv.org/abs/1901.03915).
+This repository holds a TensorFlow 1x implementation for Autonomous Photorealism Preservation and Style Transfer Framework.
 
-At its core this is a TensorFlow based implementation of the paper [Deep Photo Style Transfer](https://arxiv.org/abs/1703.07511).
-
-One of the main contributions of “Automated Deep Photo Style Transfer” is the automatic segmentation of input images and a semantic grouping thereof. Another contribution of this is the optimization of the transfer image by improving the aesthetics of the image with the use of [Neural Image Assessment (NIMA)](https://arxiv.org/abs/1709.05424).
-
-## Examples
-
-Given a content and style image, automatically a segmentation is created and semantically grouped to produce a transfer image in the size of the content image by using the [Deep Photo Style Transfer](https://arxiv.org/abs/1703.07511):
-
-<p align="center">
-    <img src="./examples/teaser.jpg" width="870" alt="Overview"/>
-</p>
-
-Here are some example results (from left to right are the content image, the resulting transfer image and the style image):
-
-<p align="center">
-    <img src="./examples/example_results.jpg" width="870" alt="Example results"/>
-</p>
+One of the main contributions of this project is the automatic segmentation of input images and a semantic grouping thereof. Another contribution of this is the optimization of the transfer image by improving the aesthetics of the image with the use of [Neural Image Assessment (NIMA)](https://arxiv.org/abs/1709.05424).
 
 ## Setup
 
